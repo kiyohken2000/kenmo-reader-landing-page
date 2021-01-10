@@ -69,7 +69,7 @@ export default class Header extends Component {
                   element="download"
                 >
                   <a className="nav-link" href="#download">
-                    Download
+                    ダウンロード
                   </a>
                 </Scroll>
               </li>
@@ -80,7 +80,7 @@ export default class Header extends Component {
                   element="features"
                 >
                   <a className="nav-link" href="#features">
-                    Features
+                    機能
                   </a>
                 </Scroll>
               </li>
@@ -91,7 +91,7 @@ export default class Header extends Component {
                   element="contact"
                 >
                   <a className="nav-link" href="#contact">
-                    Contact
+                    ご連絡
                   </a>
                 </Scroll>
               </li>

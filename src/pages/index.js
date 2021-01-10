@@ -20,12 +20,11 @@ const IndexPage = () => (
           <div className="col-lg-7 my-auto">
             <div className="header-content mx-auto">
               <h1 className="mb-5">
-                New Age is an gatsby starter for app landing page that will help
-                you beautifully showcase your new mobile app, or anything else!
+                kenmo readerは様々なニュースサイトの記事をクリーンでシンプルなスタイルで読むためのアプリです。もちろん広告は表示されません。
               </h1>
               <Scroll type="id" element="download">
                 <a href="#download" className="btn btn-outline btn-xl">
-                  Start Now for Free!
+                  今すぐダウンロード！
                 </a>
               </Scroll>
             </div>
@@ -51,11 +50,11 @@ const IndexPage = () => (
         <div className="row">
           <div className="col-md-8 mx-auto">
             <h2 className="section-heading">
-              Discover what all the buzz is about!
+              kenmo reading style<br/>
+              始めよう
             </h2>
             <p>
-              Our app is available on any mobile device! Download now to get
-              started!
+              kenmo readerはどのスマホでも利用できます。今すぐダウンロード！
             </p>
             <div className="badges">
               <a className="badge-link" href="/#">
@@ -73,9 +72,9 @@ const IndexPage = () => (
     <section className="features" id="features">
       <div className="container">
         <div className="section-heading text-center">
-          <h2>Unlimited Features, Unlimited Fun</h2>
+          <h2>クリーンでシンプルな閲覧を約束します</h2>
           <p className="text-muted">
-            Check out what you can do with this app theme!
+            kenmo readerを紹介します
           </p>
           <hr />
         </div>
@@ -98,20 +97,18 @@ const IndexPage = () => (
                 <div className="col-lg-6">
                   <div className="feature-item">
                     <i className="icon-screen-smartphone text-primary"></i>
-                    <h3>Device Mockups</h3>
+                    <h3>シンプルな閲覧</h3>
                     <p className="text-muted">
-                      Ready to use HTML/CSS device mockups, no Photoshop
-                      required!
+                      派手な装飾を排除して記事を表示
                     </p>
                   </div>
                 </div>
                 <div className="col-lg-6">
                   <div className="feature-item">
                     <i className="icon-camera text-primary"></i>
-                    <h3>Flexible Use</h3>
+                    <h3>多くのニュースソース</h3>
                     <p className="text-muted">
-                      Put an image, video, animation, or anything else in the
-                      screen!
+                      様々なニュースサイトに対応しています
                     </p>
                   </div>
                 </div>
@@ -120,20 +117,18 @@ const IndexPage = () => (
                 <div className="col-lg-6">
                   <div className="feature-item">
                     <i className="icon-present text-primary"></i>
-                    <h3>Free to Use</h3>
+                    <h3>広告を排除</h3>
                     <p className="text-muted">
-                      As always, this theme is free to download and use for any
-                      purpose!
+                      あなたの情報収集を妨げる広告は表示されません
                     </p>
                   </div>
                 </div>
                 <div className="col-lg-6">
                   <div className="feature-item">
                     <i className="icon-lock-open text-primary"></i>
-                    <h3>Open Source</h3>
+                    <h3>あなたの助けが必要です</h3>
                     <p className="text-muted">
-                      Since this theme is MIT licensed, you can use it
-                      commercially!
+                      ニュースソースの追加リクエストはいつでも受け付けています
                     </p>
                   </div>
                 </div>
@@ -148,13 +143,11 @@ const IndexPage = () => (
       <div className="cta-content">
         <div className="container">
           <h2>
-            Stop waiting.
-            <br />
-            Start building.
+            みんなで最強のニュースリーダーアプリを作ろう！
           </h2>
           <Scroll type="id" element="contact">
             <a href="#contact" className="btn btn-outline btn-xl">
-              Let's Get Started!
+              ツイッターにぜひご連絡ください
             </a>
           </Scroll>
         </div>
@@ -167,7 +160,7 @@ const IndexPage = () => (
         <h2>
           We
           <i className="fas fa-heart"></i>
-          new friends!
+          are poverty!
         </h2>
         <Social />
       </div>
