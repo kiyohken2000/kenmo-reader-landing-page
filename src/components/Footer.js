@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'gatsby';
 
 export default function Footer() {
   return (
@@ -7,7 +8,7 @@ export default function Footer() {
         <p>&copy; kenmo reader 2021. All Rights Reserved.</p>
         <ul className="list-inline">
           <li className="list-inline-item">
-            <a href="/privacy">Privacy</a>
+            <Link to="/privacy">Privacy</Link>
           </li>
         </ul>
       </div>

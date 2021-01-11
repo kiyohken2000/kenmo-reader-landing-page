@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import config from '../../config';
 import Scroll from './Scroll';
+import { Link } from 'gatsby';
 export default class Header extends Component {
   constructor(props) {
     super(props);
@@ -94,6 +95,11 @@ export default class Header extends Component {
                     ご連絡
                   </a>
                 </Scroll>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/privacy">
+                  プライバシーポリシー
+                </Link>
               </li>
             </ul>
           </div>
