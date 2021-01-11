@@ -57,7 +57,7 @@ const IndexPage = () => (
               kenmo reading style
             </h2>
             <p>
-              どのスマホでも利用できます。今すぐダウンロード！
+              どのスマホでも利用できます。今すぐダウンロード
             </p>
             <div className="badges">
               <a className="badge-link" href="https://play.google.com/store/apps/details?id=net.votepurchase.kenmoreader" target="_blank" rel="noreferrer noopener">
