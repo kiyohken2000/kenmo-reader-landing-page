@@ -131,7 +131,7 @@ const IndexPage = () => (
                     <i className="icon-lock-open text-primary"></i>
                     <h3>あなたの助けが必要です</h3>
                     <p className="text-muted">
-                      ニュースソースの追加リクエストはツイッターでいつでも受け付けています
+                      ニュースソースの追加リクエストはいつでも受け付けています
                     </p>
                   </div>
                 </div>
