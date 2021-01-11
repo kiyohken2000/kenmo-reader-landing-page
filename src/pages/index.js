@@ -150,7 +150,9 @@ const IndexPage = () => (
           </h2>
           <h3>
             <i className="fas fa-arrow-left"></i>
-            のフィードバックを使ってあなたのお気に入りのサイトを教えてください
+            のフィードバックか
+            <i className="fab fa-twitter"></i>
+            を使ってあなたのお気に入りのサイトを教えてください
             <br/><br/>
             kenmo readerに対応しているウェブサイトをアプリに追加します
           </h3>
