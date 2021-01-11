@@ -166,9 +166,9 @@ const IndexPage = () => (
     <section className="contact bg-primary" id="contact">
       <div className="container">
         <h2>
-          We
+          We are
           <i className="fas fa-heart"></i>
-          are poverty!
+          poverty!
         </h2>
         <Social />
       </div>
