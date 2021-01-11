@@ -146,7 +146,7 @@ const IndexPage = () => (
       <div className="cta-content">
         <div className="container">
           <h2>
-            みんなで最強のニュースリーダーアプリを作ろう！
+            みんなで最強のニュースリーダーアプリを作ろう
           </h2>
           <h3>
             あなたのお気に入りのサイトを教えてください
