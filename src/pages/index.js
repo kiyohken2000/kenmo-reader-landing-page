@@ -149,15 +149,11 @@ const IndexPage = () => (
             みんなで最強のニュースリーダーアプリを作ろう
           </h2>
           <h3>
-            あなたのお気に入りのサイトを教えてください
+            <i className="fas fa-arrow-left"></i>
+            のフィードバックを使ってあなたのお気に入りのサイトを教えてください
             <br/><br/>
             kenmo readerに対応しているウェブサイトをアプリに追加します
           </h3>
-          <Scroll type="id" element="contact">
-            <a href="https://twitter.com/votepurchase" target="_blank" rel="noreferrer noopener" className="btn btn-outline btn-xl">
-              ツイッターにぜひご連絡ください
-            </a>
-          </Scroll>
         </div>
       </div>
       <div className="overlay"></div>
