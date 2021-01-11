@@ -149,8 +149,7 @@ const IndexPage = () => (
             みんなで最強のニュースリーダーアプリを作ろう
           </h2>
           <h3>
-            <i className="fas fa-arrow-left"></i>
-            のフィードバックか
+            フィードバックか
             <i className="fab fa-twitter"></i>
             を使ってあなたのお気に入りのサイトを教えてください
             <br/><br/>
