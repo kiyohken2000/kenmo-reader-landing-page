@@ -19,6 +19,21 @@ module.exports = {
         icon: config.manifestIcon, // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "G-YXCF0F2HRJ",
+        head: false,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-hotjar`,
+      options: {
+        includeInDevelopment: true,
+        id: 2191023,
+        sv: 6,
+      },
+    },
     'gatsby-plugin-sass',
     'gatsby-plugin-offline',
   ],

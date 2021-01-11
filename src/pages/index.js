@@ -7,8 +7,10 @@ import Footer from '../components/Footer';
 import Social from '../components/Social';
 
 import demo1 from '../assets/images/demo-screen-1.jpg';
-import gplay from '../assets/images/google-play-badge.svg';
+import gplaysvg from '../assets/images/google-play-badge.svg';
+import gplaypng from '../assets/images/google-play-badge.png';
 import astore from '../assets/images/app-store-badge.svg';
+import astorejp from '../assets/images/appstore.svg';
 
 const IndexPage = () => (
   <Layout>
@@ -24,7 +26,7 @@ const IndexPage = () => (
               </h1>
               <Scroll type="id" element="download">
                 <a href="#download" className="btn btn-outline btn-xl">
-                  今すぐダウンロード！
+                  今すぐダウンロード
                 </a>
               </Scroll>
             </div>
@@ -50,18 +52,19 @@ const IndexPage = () => (
         <div className="row">
           <div className="col-md-8 mx-auto">
             <h2 className="section-heading">
-              kenmo reading style<br/>
               始めよう
+              <br/>
+              kenmo reading style
             </h2>
             <p>
-              kenmo readerはどのスマホでも利用できます。今すぐダウンロード！
+              どのスマホでも利用できます。今すぐダウンロード！
             </p>
             <div className="badges">
-              <a className="badge-link" href="/#">
-                <img src={gplay} alt="" />
+              <a className="badge-link" href="https://play.google.com/store/apps/details?id=net.votepurchase.kenmoreader" target="_blank" rel="noreferrer noopener">
+                <img src={gplaypng} alt="Google Playで手に入れよう" />
               </a>
-              <a className="badge-link" href="/#">
-                <img src={astore} alt="" />
+              <a className="badge-link" href="https://apps.apple.com/jp/app/kenmo-reader/id1548214464" target="_blank" rel="noreferrer noopener">
+                <img src={astorejp} alt="App Storeからダウアンロード" />
               </a>
             </div>
           </div>
@@ -108,7 +111,7 @@ const IndexPage = () => (
                     <i className="icon-camera text-primary"></i>
                     <h3>多くのニュースソース</h3>
                     <p className="text-muted">
-                      様々なニュースサイトに対応しています
+                      様々なニュースサイトとまとめサイトに対応しています
                     </p>
                   </div>
                 </div>
@@ -119,7 +122,7 @@ const IndexPage = () => (
                     <i className="icon-present text-primary"></i>
                     <h3>広告を排除</h3>
                     <p className="text-muted">
-                      あなたの情報収集を妨げる広告は表示されません
+                      あなたの快適な情報収集を妨げる広告は表示されません
                     </p>
                   </div>
                 </div>
@@ -128,7 +131,7 @@ const IndexPage = () => (
                     <i className="icon-lock-open text-primary"></i>
                     <h3>あなたの助けが必要です</h3>
                     <p className="text-muted">
-                      ニュースソースの追加リクエストはいつでも受け付けています
+                      ニュースソースの追加リクエストはツイッターでいつでも受け付けています
                     </p>
                   </div>
                 </div>
@@ -145,8 +148,13 @@ const IndexPage = () => (
           <h2>
             みんなで最強のニュースリーダーアプリを作ろう！
           </h2>
+          <h3>
+            あなたのお気に入りのサイトを教えてください
+            <br/><br/>
+            kenmo readerに対応しているウェブサイトをアプリに追加します
+          </h3>
           <Scroll type="id" element="contact">
-            <a href="#contact" className="btn btn-outline btn-xl">
+            <a href="https://twitter.com/votepurchase" target="_blank" rel="noreferrer noopener" className="btn btn-outline btn-xl">
               ツイッターにぜひご連絡ください
             </a>
           </Scroll>
