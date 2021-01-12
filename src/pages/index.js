@@ -112,7 +112,7 @@ const IndexPage = () => (
                     <i className="icon-camera text-primary"></i>
                     <h3>多くのニュースソース</h3>
                     <p className="text-muted">
-                      様々なニュースサイトとまとめサイトに対応しています
+                      様々なニュースやまとめサイトに対応しています
                     </p>
                   </div>
                 </div>
@@ -150,9 +150,13 @@ const IndexPage = () => (
             みんなで最強のニュースリーダーアプリを作ろう
           </h2>
           <h3>
-            フィードバックか
+            フィードバック（
+            <i className="fas fa-arrow-down"></i>
+            の
+            <i className="fas fa-comment-alt"></i>
+            ）か
             <i className="fab fa-twitter"></i>
-            を使ってあなたのお気に入りのサイトを教えてください
+            であなたのお気に入りのサイトを教えてください
             <br/><br/>
             kenmo readerに対応しているウェブサイトをアプリに追加します
           </h3>
