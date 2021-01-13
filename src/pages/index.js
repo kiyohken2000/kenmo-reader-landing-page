@@ -152,6 +152,7 @@ const IndexPage = () => (
           <h3>
             フィードバック（
             <i className="fas fa-arrow-down"></i>
+            <i className="fas fa-arrow-right"></i>
             の
             <i className="fas fa-comment-alt"></i>
             ）か

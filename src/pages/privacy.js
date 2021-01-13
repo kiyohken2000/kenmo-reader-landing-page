@@ -2,18 +2,16 @@ import React from 'react';
 import Footer from '../components/Footer';
 import Layout from '../components/Layout';
 import { Link } from 'gatsby';
+import PrivacyHeader from '../components/privacyHeader';
 
 const IndexPage = () => (
   <Layout>
+    <PrivacyHeader />
     <section className="cta">
       <div className="cta-content">
         <div className="container">
           <h2>
-            プライバシーポリシー
-            <br />
-            <Link className="btn btn-outline btn-xl" to="/">
-              戻る
-            </Link>
+            Privacy Policy
           </h2>
         </div>
       </div>
@@ -34,7 +32,6 @@ const IndexPage = () => (
         </div>
       </div>
     </section>
-
     <Footer />
   </Layout>
 );
